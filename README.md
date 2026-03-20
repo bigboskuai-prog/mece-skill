@@ -100,6 +100,8 @@ MECE was created by **Barbara Minto** at McKinsey & Company in the 1960s. It's b
 
 This skill brings MECE to AI-native workflows — where the cost of overlaps and gaps is amplified because AI builds exactly what you tell it to, including the mistakes.
 
+Inspired by [this thread](https://x.com/jayanaman/status/2034909470690513321?s=20) by [@jayanaman](https://x.com/jayanaman).
+
 ## License
 
 MIT
